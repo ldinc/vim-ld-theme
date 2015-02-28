@@ -1,6 +1,10 @@
 # vim-ld-theme
 Simple light theme for vim
 
+## Warning
+* Still in development!
+* Still works on 256-term!
+
 ## Bundle install:
 In your .vimrc add:
 ```
@@ -10,3 +14,8 @@ and then use command in vim:
 ```vim
 :PluginInstall
 ```
+
+## Common install:
+Copy colors/ld.vim int your vim folder (by default: ~/.vim/).
+
+### Thx for using =)
