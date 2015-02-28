@@ -16,6 +16,6 @@ and then use command in vim:
 ```
 
 ## Common install:
-Copy ```sh colors/ld.vim ``` int your vim folder (by default: ```sh ~/.vim/```).
+Copy ``` colors/ld.vim ``` int your vim folder (by default: ``` ~/.vim/```).
 
 ### Thx for using =)
