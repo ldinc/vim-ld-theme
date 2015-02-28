@@ -3,7 +3,7 @@ Simple light theme for vim
 
 ## Warning
 * Still in development!
-* Still works on 256-term!
+* Still works only on 256-term!
 
 ## Bundle install:
 In your .vimrc add:
