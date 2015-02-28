@@ -119,7 +119,7 @@ if &t_Co > 255
    hi CursorLineNr    ctermfg=208               cterm=none
    hi Boolean         ctermfg=135
    hi Character       ctermfg=144
-   hi Number          ctermfg=209
+   hi Number          ctermfg=75
    hi String          ctermfg=64
    hi Conditional     ctermfg=161               cterm=bold
    hi Constant        ctermfg=135               cterm=bold
@@ -146,13 +146,13 @@ if &t_Co > 255
    hi IncSearch       ctermfg=25  ctermbg=16
 
    hi keyword         ctermfg=red                cterm=bold
-   hi Label           ctermfg=229               cterm=none
+   hi Label           ctermfg=215                cterm=none
    hi Macro           ctermfg=25
    hi SpecialKey      ctermfg=0
 
-   hi MatchParen      ctermfg=233  ctermbg=208 cterm=bold
-   hi ModeMsg         ctermfg=229
-   hi MoreMsg         ctermfg=229
+   hi MatchParen      ctermfg=252  ctermbg=239 cterm=bold
+   hi ModeMsg         ctermfg=80
+   hi MoreMsg         ctermfg=80
    hi Operator        ctermfg=161
 
    " complete menu
@@ -171,7 +171,7 @@ if &t_Co > 255
    hi SignColumn      ctermfg=25  ctermbg=235
    hi SpecialChar     ctermfg=161               cterm=bold
    hi SpecialComment  ctermfg=245               cterm=bold
-   hi Special         ctermfg=81
+   hi Special         ctermfg=0
    if has("spell")
        hi SpellBad                ctermbg=52
        hi SpellCap                ctermbg=17
