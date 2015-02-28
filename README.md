@@ -18,4 +18,9 @@ and then use command in vim:
 ## Common install:
 Copy ``` colors/ld.vim ``` int your vim folder (by default: ``` ~/.vim/```).
 
+### Using:
+```vim
+colorscheme ld
+```
+
 ### Thx for using =)
