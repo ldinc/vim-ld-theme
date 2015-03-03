@@ -119,7 +119,7 @@ if &t_Co > 255
    hi CursorLineNr    ctermfg=208               cterm=none
    hi Boolean         ctermfg=135
    hi Character       ctermfg=144
-   hi Number          ctermfg=75
+   hi Number          ctermfg=67
    hi String          ctermfg=64
    hi Conditional     ctermfg=161               cterm=bold
    hi Constant        ctermfg=135               cterm=bold
@@ -134,7 +134,7 @@ if &t_Co > 255
    hi DiffText                    ctermbg=102 cterm=bold
 
    hi Directory       ctermfg=25                cterm=bold
-   hi Error           ctermfg=219 ctermbg=89
+   hi Error           ctermfg=219 ctermbg=24
    hi ErrorMsg        ctermfg=254 ctermbg=203   cterm=bold
    hi Exception       ctermfg=25                cterm=bold
    hi Float           ctermfg=135
@@ -182,13 +182,13 @@ if &t_Co > 255
    hi StatusLine      ctermfg=238 ctermbg=253
    hi StatusLineNC    ctermfg=244 ctermbg=232
    hi StorageClass    ctermfg=97
-   hi Structure       ctermfg=81
+   hi Structure       ctermfg=69
    hi Tag             ctermfg=161
    hi Title           ctermfg=166
    hi Todo            ctermfg=94 ctermbg=222   cterm=bold
 
-   hi Typedef         ctermfg=81
-   hi Type            ctermfg=178               cterm=none
+   hi Typedef         ctermfg=69
+   hi Type            ctermfg=178               cterm=bold
    hi Underlined      ctermfg=244               cterm=underline
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
