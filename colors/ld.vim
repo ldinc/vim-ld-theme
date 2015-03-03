@@ -185,7 +185,7 @@ if &t_Co > 255
    hi Structure       ctermfg=81
    hi Tag             ctermfg=161
    hi Title           ctermfg=166
-   hi Todo            ctermfg=231 ctermbg=232   cterm=bold
+   hi Todo            ctermfg=94 ctermbg=222   cterm=bold
 
    hi Typedef         ctermfg=81
    hi Type            ctermfg=178               cterm=none
@@ -197,7 +197,7 @@ if &t_Co > 255
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 
-   hi Comment         ctermfg=253
+   hi Comment         ctermfg=253               cterm=italic
    hi CursorColumn                ctermbg=236
    hi ColorColumn                 ctermbg=236
    hi LineNr          ctermfg=236 ctermbg=254
