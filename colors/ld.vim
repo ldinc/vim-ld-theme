@@ -156,7 +156,7 @@ if &t_Co > 255
    hi Operator        ctermfg=161
 
    " complete menu
-   hi Pmenu           ctermfg=0  ctermbg=153
+   hi Pmenu           ctermfg=0   ctermbg=153
    hi PmenuSel        ctermfg=255 ctermbg=250
    hi PmenuSbar                   ctermbg=232
    hi PmenuThumb      ctermfg=81
@@ -191,7 +191,8 @@ if &t_Co > 255
    hi Type            ctermfg=178               cterm=bold
    hi Underlined      ctermfg=244               cterm=underline
 
-   hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
+   "254 - gray light
+   hi VertSplit       ctermfg=238 ctermbg=254   cterm=bold
    hi VisualNOS                   ctermbg=238
    hi Visual                      ctermbg=254
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
