@@ -115,7 +115,7 @@ hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 "
 if &t_Co > 255
    hi Normal          ctermfg=0   ctermbg=15
-   hi CursorLine                  ctermbg=0     cterm=none
+   hi CursorLine                  ctermbg=250   cterm=none
    hi CursorLineNr    ctermfg=208               cterm=none
    hi Boolean         ctermfg=135
    hi Character       ctermfg=144
