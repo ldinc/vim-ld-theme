@@ -2,8 +2,7 @@
 Simple light theme for vim
 
 ## Warning
-* Still in development!
-* Still works only on 256-term!
+* Still pretty works only on 256-term!
 
 ## Bundle install:
 In your .vimrc add:
@@ -16,7 +15,7 @@ and then use command in vim:
 ```
 
 ## Common install:
-Copy ``` colors/ld.vim ``` int your vim folder (by default: ``` ~/.vim/```).
+Copy ``` colors/ld.vim ``` into your vim folder (by default: ``` ~/.vim/```).
 
 ## Using:
 ```vim
