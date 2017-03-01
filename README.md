@@ -22,4 +22,8 @@ Copy ``` colors/ld.vim ``` into your vim folder (by default: ``` ~/.vim/```).
 colorscheme ld
 ```
 
+## Example:
+
+![alt tag](http://ldinc.github.io/images/vim-ld-theme-go-example.png)
+
 ### Thx for using =)
