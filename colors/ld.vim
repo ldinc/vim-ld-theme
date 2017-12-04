@@ -134,7 +134,8 @@ if &t_Co > 255
    hi DiffText                    ctermbg=102 cterm=bold
 
    hi Directory       ctermfg=25                cterm=bold
-   hi Error           ctermfg=219 ctermbg=24
+   "hi Error           ctermfg=219 ctermbg=24
+   hi Error           ctermfg=254 ctermbg=24
    hi ErrorMsg        ctermfg=254 ctermbg=203   cterm=bold
    hi Exception       ctermfg=25                cterm=bold
    hi Float           ctermfg=135
@@ -173,7 +174,8 @@ if &t_Co > 255
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=0
    if has("spell")
-       hi SpellBad                ctermbg=52
+       "hi SpellBad                ctermbg=245
+       hi SpellBad    ctermfg=26  ctermbg=255   cterm=bold,underline
        hi SpellCap                ctermbg=17
        hi SpellLocal              ctermbg=17
        hi SpellRare  ctermfg=none ctermbg=none  cterm=reverse
