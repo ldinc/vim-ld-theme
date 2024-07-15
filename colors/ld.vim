@@ -93,21 +93,21 @@ hi Type            guifg=#d7af00               gui=none
 hi Underlined      guifg=#808080               gui=underline
 
 hi VertSplit       guifg=#444444 guibg=#e4e4e4 gui=bold
-hi VisualNOS                     guibg=#444444
-hi Visual                        guibg=#444444
+hi VisualNOS                     guibg=#e4e4e4
+hi Visual                        guibg=#e4e4e4
 hi WarningMsg      guifg=#ffffff guibg=#444444 gui=bold
-hi WildMenu        guifg=#5fd7ff guibg=#000000
+hi WildMenu        guifg=#47b0d0 guibg=#000000
 
-hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
+hi TabLineFill     guifg=#1B1D1E guibg=#828282
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
    hi Normal          guifg=#000000 guibg=#ffffff
    hi Comment         guifg=#75715E
-   hi CursorLine                    guibg=#3E3D32
+   hi CursorLine                    guibg=#5f5d4d
    hi CursorLineNr    guifg=#FD971F               gui=none
-   hi CursorColumn                  guibg=#3E3D32
-   hi ColorColumn                   guibg=#3B3A32
-   hi LineNr          guifg=#BCBCBC guibg=#3B3A32
+   hi CursorColumn                  guibg=#e4e4e4
+   hi ColorColumn                   guibg=#e4e4e4
+   hi LineNr          guifg=#BCBCBC guibg=#e4e4e4
    hi NonText         guifg=#75715E
 
 "
